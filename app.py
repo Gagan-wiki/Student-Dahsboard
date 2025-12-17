@@ -6,6 +6,7 @@ st.set_page_config(
     layout="wide",
 )
 
-html_file=Path("practice/1.html").read_text(encoding="utf-8")
+html_file=Path("1.html").read_text(encoding="utf-8")
+
 
 st.components.v1.html(html_file, height=1000, scrolling=True)
